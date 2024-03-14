@@ -1,4 +1,6 @@
-﻿namespace FormulaCuadraticaMvvm
+﻿using FormulaCuadraticaMvvm.Views;
+
+namespace FormulaCuadraticaMvvm
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new FormulaCuadraticaContentPage();
         }
     }
 }

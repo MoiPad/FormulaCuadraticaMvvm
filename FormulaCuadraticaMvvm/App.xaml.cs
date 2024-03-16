@@ -8,7 +8,7 @@ namespace FormulaCuadraticaMvvm
         {
             InitializeComponent();
 
-            MainPage = new FormulaCuadraticaContentPage();
+            MainPage = new NavigationPage( new FormulaCuadraticaMainPage());
         }
     }
 }
